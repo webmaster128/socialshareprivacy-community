@@ -12,6 +12,11 @@ Requirements
 ------------
 * jQuery 1.7+
 
+Features
+--------
+* Tested with jQuery 1.7 – 1.10
+* Compatible with IE7
+
 Changelog
 ---------
 
