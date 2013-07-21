@@ -290,7 +290,7 @@
                     }
                 }
                 cookies += '}';
-                cookies = JSON.parse(cookies);
+                cookies = $.parseJSON(cookies);
 
                 // Container definieren
                 var $container_settings_info = $('li.settings_info', context);
