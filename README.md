@@ -32,8 +32,8 @@ Changelog
 Build download zip package
 --------------------------
 ```
-$ yui-compressor jquery.socialshareprivacy.js > download/jquery.socialshareprivacy.min.js
 $ cd ./download
+$ yui-compressor jquery.socialshareprivacy.js > jquery.socialshareprivacy.min.js
 $ zip -9 -r ../download.zip ./
 $ cd ..
 ```
