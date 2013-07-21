@@ -1,4 +1,6 @@
+/*! socialshareprivacy-community | License: https://github.com/webmaster128/socialshareprivacy-community */
 /*
+ * Based on:
  * jquery.socialshareprivacy.js | 2 Klicks fuer mehr Datenschutz
  *
  * http://www.heise.de/extras/socialshareprivacy/
