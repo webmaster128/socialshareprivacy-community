@@ -5,7 +5,7 @@ This is a community version of the Heise.de socialshareprivacy plugin.
 
 Download
 --------
-Download the [lastest build of socialshareprivacy-community](https://github.com/webmaster128/socialshareprivacy-community/blob/master/download.zip?raw=true).
+Download the [latest build of socialshareprivacy-community](https://github.com/webmaster128/socialshareprivacy-community/blob/master/download.zip?raw=true).
 
 Goal
 ----
