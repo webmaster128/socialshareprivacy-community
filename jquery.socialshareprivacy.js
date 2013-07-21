@@ -272,11 +272,9 @@
             var gplus_perma    = (options.services.gplus.perma_option    === 'on');
 
             // Menue zum dauerhaften Einblenden der aktiven Dienste via Cookie einbinden
-            // Die IE7 wird hier ausgenommen, da er kein JSON kann und die Cookies hier ueber JSON-Struktur abgebildet werden
-            if (((facebook_on && facebook_perma)
+            if ((facebook_on && facebook_perma)
                 || (twitter_on && twitter_perma)
-                || (gplus_on && gplus_perma))
-                    && (!$.browser.msie || ($.browser.msie && $.browser.version > 7.0))) {
+                || (gplus_on && gplus_perma)) {
 
                 // Cookies abrufen
                 var cookie_list = document.cookie.split(';');
