@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html lang="de-DE">
+<head>
+    <meta charset="UTF-8" />
+    <title>Test socialshareprivacy-community using jQuery 1.10</title>
+    <script src="jquery-1.10.1.min.js"></script>
+	<script src="../download/jquery.socialshareprivacy.js"></script>
+</head>
+<body>
+    <h1>Test socialshareprivacy-community (multi-include)</h1>
+    <h2>using jQuery 1.10</h2>
+
+	<section>
+		<h3><a href="http://www.heise.de">heise</a></h3>
+		<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+		<div id="one"></div>
+	</section>
+	<script>
+	$("#one").socialSharePrivacy({
+		uri : "http://www.heise.de",
+		'css_path' : '../download/socialshareprivacy/socialshareprivacy.css',
+		services : {
+			facebook : {
+				'dummy_img': '../download/socialshareprivacy/images/dummy_facebook.png'
+			}, 
+			twitter : {
+				'dummy_img': '../download/socialshareprivacy/images/dummy_twitter.png'
+			},
+			gplus : {
+				'dummy_img': '../download/socialshareprivacy/images/dummy_gplus.png'
+			}
+		}
+	});
+	</script>
+
+	<section>
+		<h3><a href="http://www.heise.de/security/">heise security</a></h3>
+		<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+		<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+		<div id="two"></div>
+	</section>
+	<script>
+	$("#two").socialSharePrivacy({
+		uri : "http://www.heise.de/security/",
+		'css_path' : '../download/socialshareprivacy/socialshareprivacy.css',
+		services : {
+			facebook : {
+				'dummy_img': '../download/socialshareprivacy/images/dummy_facebook.png'
+			}, 
+			twitter : {
+				'dummy_img': '../download/socialshareprivacy/images/dummy_twitter.png'
+			},
+			gplus : {
+				'dummy_img': '../download/socialshareprivacy/images/dummy_gplus.png'
+			}
+		}
+	});
+	</script>
+
+	<section>
+		<h3><a href="http://www.heise.de/netze/">heise netze</a></h3>
+		<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+		<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis.</p>
+		<div id="three"></div>
+	</section>
+	<script>
+	$("#three").socialSharePrivacy({
+		uri : "http://www.heise.de/netze/",
+		'css_path' : '../download/socialshareprivacy/socialshareprivacy.css',
+		services : {
+			facebook : {
+				'dummy_img': '../download/socialshareprivacy/images/dummy_facebook.png'
+			}, 
+			twitter : {
+				'dummy_img': '../download/socialshareprivacy/images/dummy_twitter.png'
+			},
+			gplus : {
+				'dummy_img': '../download/socialshareprivacy/images/dummy_gplus.png'
+			}
+		}
+	});
+	</script>
+</body>
+</html>
