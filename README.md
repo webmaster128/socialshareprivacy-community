@@ -15,7 +15,7 @@ Requirements
 Changelog
 ---------
 * Version 1.5
-  Replace jQuery .live() calls by .on() calls (commit webmaster128@e14a0a8d0d8a462d3e81377e2b6877b38d7952c5)
+  Replace jQuery .live() calls by .on() calls (commit webmaster128/socialshareprivacy-community@e14a0a8d0d8a462d3e81377e2b6877b38d7952c5)
 * Version 1.4
   Use original source from [Heise](http://www.heise.de/extras/socialshareprivacy/)
 
