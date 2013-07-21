@@ -3,6 +3,10 @@ socialshareprivacy-community
 
 This is a community version of the Heise.de socialshareprivacy plugin.
 
+Download
+--------
+Download the [lastest build of socialshareprivacy-community](https://github.com/webmaster128/socialshareprivacy-community/blob/master/download.zip?raw=true)
+
 Goal
 ----
 The purpose of this community fork is to have a socialshareprivacy plugin
