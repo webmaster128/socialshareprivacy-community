@@ -15,7 +15,7 @@ Requirements
 Changelog
 ---------
 
-### Version 1.5
+### Version 1.5 (to be released)
 * Replace jQuery .live() calls by .on() calls. [e14a0a8d0d](https://github.com/webmaster128/socialshareprivacy-community/commit/e14a0a8d0d8a462d3e81377e2b6877b38d7952c5)
 
 ### Version 1.4
