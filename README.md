@@ -29,3 +29,12 @@ Changelog
 ### Version 1.4
 * Use original source from [Heise](http://www.heise.de/extras/socialshareprivacy/)
 
+Build download zip package
+--------------------------
+```
+$ yui-compressor jquery.socialshareprivacy.js > download/jquery.socialshareprivacy.min.js
+$ cd ./download
+$ zip -9 -r ../download.zip ./
+$ cd ..
+```
+
