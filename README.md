@@ -29,6 +29,7 @@ Changelog
 * Replace native JSON.parse call by jQuery.parseJSON in order to be able to remove browser switch.
   [8070ae54f3](https://github.com/webmaster128/socialshareprivacy-community/commit/8070ae54f391e9392b4979f82658746a08b70c98) and
   [dc35454a7c](https://github.com/webmaster128/socialshareprivacy-community/commit/dc35454a7c6d0bd14b1bc8335a8a1bcf29cdb8c6)
+* Full support for German and English
 
 ### Version 1.4
 * Use original source from [Heise](http://www.heise.de/extras/socialshareprivacy/)
