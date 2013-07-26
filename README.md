@@ -40,7 +40,7 @@ Build download zip package
 ```
 $ cd ./download
 $ yui-compressor jquery.socialshareprivacy.js > jquery.socialshareprivacy.min.js
-$ zip -9 -r ../download.zip ./
+$ zip -9 --exclude *~ -r ../download.zip ./
 $ cd ..
 ```
 
