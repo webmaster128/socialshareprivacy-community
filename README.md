@@ -22,6 +22,10 @@ Features
 * Compatible with IE7 (In theory. Layout is broken and Facebook doesn't seem to support IE7 with their social plugin)
 * Full support for German and English
 
+Privacy Note
+------------
+* This plugin is pointless when you include jQuery via Google's CDN.
+
 Changelog
 ---------
 
