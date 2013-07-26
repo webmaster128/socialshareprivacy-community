@@ -20,6 +20,7 @@ Features
 --------
 * Tested with jQuery 1.7 – 1.10
 * Compatible with IE7 (In theory. Layout is broken and Facebook doesn't seem to support IE7 with their social plugin)
+* Full support for German and English
 
 Changelog
 ---------
