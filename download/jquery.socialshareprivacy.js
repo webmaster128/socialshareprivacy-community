@@ -88,9 +88,6 @@
                 'facebook' : {
                     'status'            : 'on',
                     'dummy_img'         : 'socialshareprivacy/images/dummy_facebook.png',
-                    'txt_info'          : '2 Klicks f&uuml;r mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k&ouml;nnen Ihre Empfehlung an Facebook senden. Schon beim Aktivieren werden Daten an Dritte &uuml;bertragen &ndash; siehe <em>i</em>.',
-                    'txt_fb_off'        : 'nicht mit Facebook verbunden',
-                    'txt_fb_on'         : 'mit Facebook verbunden',
                     'perma_option'      : 'on',
                     'display_name'      : 'Facebook',
                     'referrer_track'    : '',
@@ -100,9 +97,6 @@
                 'twitter' : {
                     'status'            : 'on', 
                     'dummy_img'         : 'socialshareprivacy/images/dummy_twitter.png',
-                    'txt_info'          : '2 Klicks f&uuml;r mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k&ouml;nnen Ihre Empfehlung an Twitter senden. Schon beim Aktivieren werden Daten an Dritte &uuml;bertragen &ndash; siehe <em>i</em>.',
-                    'txt_twitter_off'   : 'nicht mit Twitter verbunden',
-                    'txt_twitter_on'    : 'mit Twitter verbunden',
                     'perma_option'      : 'on',
                     'display_name'      : 'Twitter',
                     'referrer_track'    : '', 
@@ -112,9 +106,6 @@
                 'gplus' : {
                     'status'            : 'on',
                     'dummy_img'         : 'socialshareprivacy/images/dummy_gplus.png',
-                    'txt_info'          : '2 Klicks f&uuml;r mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k&ouml;nnen Ihre Empfehlung an Google+ senden. Schon beim Aktivieren werden Daten an Dritte &uuml;bertragen &ndash; siehe <em>i</em>.',
-                    'txt_gplus_off'     : 'nicht mit Google+ verbunden',
-                    'txt_gplus_on'      : 'mit Google+ verbunden',
                     'perma_option'      : 'on',
                     'display_name'      : 'Google+',
                     'referrer_track'    : '',
@@ -122,14 +113,77 @@
                 }
             },
             'info_link'         : 'http://www.heise.de/ct/artikel/2-Klicks-fuer-mehr-Datenschutz-1333879.html',
-            'txt_help'          : 'Wenn Sie diese Felder durch einen Klick aktivieren, werden Informationen an Facebook, Twitter oder Google in die USA &uuml;bertragen und unter Umst&auml;nden auch dort gespeichert. N&auml;heres erfahren Sie durch einen Klick auf das <em>i</em>.',
-            'settings_perma'    : 'Dauerhaft aktivieren und Daten&uuml;ber&shy;tragung zustimmen:',
             'cookie_path'       : '/',
             'cookie_domain'     : document.location.host,
             'cookie_expires'    : '365',
             'css_path'          : 'socialshareprivacy/socialshareprivacy.css',
-            'uri'               : getURI
+            'uri'               : getURI,
+            'language'          : 'de'
         };
+
+		var default_texts_de = {
+            'services' : {
+                'facebook' : {
+                    'dummy_img'         : 'socialshareprivacy/images/dummy_facebook.png',
+                    'txt_info'          : '2 Klicks f&uuml;r mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k&ouml;nnen Ihre Empfehlung an Facebook senden. Schon beim Aktivieren werden Daten an Dritte &uuml;bertragen &ndash; siehe <em>i</em>.',
+                    'txt_fb_off'        : 'nicht mit Facebook verbunden',
+                    'txt_fb_on'         : 'mit Facebook verbunden',
+                    'language'          : 'de_DE'
+                },
+                'twitter' : {
+                    'txt_info'          : '2 Klicks f&uuml;r mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k&ouml;nnen Ihre Empfehlung an Twitter senden. Schon beim Aktivieren werden Daten an Dritte &uuml;bertragen &ndash; siehe <em>i</em>.',
+                    'txt_twitter_off'   : 'nicht mit Twitter verbunden',
+                    'txt_twitter_on'    : 'mit Twitter verbunden',
+                    'tweet_text'        : getTweetText,
+                    'language'          : 'en'
+                },
+                'gplus' : {
+                    'txt_info'          : '2 Klicks f&uuml;r mehr Datenschutz: Erst wenn Sie hier klicken, wird der Button aktiv und Sie k&ouml;nnen Ihre Empfehlung an Google+ senden. Schon beim Aktivieren werden Daten an Dritte &uuml;bertragen &ndash; siehe <em>i</em>.',
+                    'txt_gplus_off'     : 'nicht mit Google+ verbunden',
+                    'txt_gplus_on'      : 'mit Google+ verbunden',
+                    'language'          : 'de'
+                }
+            },
+            'info_link'         : 'http://www.heise.de/ct/artikel/2-Klicks-fuer-mehr-Datenschutz-1333879.html',
+            'txt_help'          : 'Wenn Sie diese Felder durch einen Klick aktivieren, werden Informationen an Facebook, Twitter oder Google in die USA &uuml;bertragen und unter Umst&auml;nden auch dort gespeichert. N&auml;heres erfahren Sie durch einen Klick auf das <em>i</em>.',
+            'settings_perma'    : 'Dauerhaft aktivieren und Daten&uuml;ber&shy;tragung zustimmen:',
+        };
+
+		var default_texts_en = {
+            'services' : {
+                'facebook' : {
+                    'dummy_img'         : 'socialshareprivacy/images/dummy_facebook_en.png',
+                    'txt_info'          : '2 clicks for more privacy: you need to click here to activate the button and send your recommendation to Facebook. An activated button will send information to third parties even without clicking it – see <em>i</em>.',
+                    'txt_fb_off'        : 'not connected to Facebook',
+                    'txt_fb_on'         : 'connected to Facebook',
+                    'language'          : 'en_US',
+                    'action'            : 'recommend'
+                },
+                'twitter' : {
+                    'txt_info'          : '2 clicks for more privacy: you need to click here to activate the button and send your recommendation to Twitter. An activated button will send information to third parties even without clicking it – see <em>i</em>.',
+                    'txt_twitter_off'   : 'not connected to Twitter',
+                    'txt_twitter_on'    : 'connected to Twitter',
+                    'tweet_text'        : getTweetText,
+                    'language'          : 'en'
+                },
+                'gplus' : {
+                    'txt_info'          : '2 clicks for more privacy: you need to click here to activate the button and send your recommendation to Google+. An activated button will send information to third parties even without clicking it – see <em>i</em>.',
+                    'txt_gplus_off'     : 'not connected to Google+',
+                    'txt_gplus_on'      : 'connected to Google+',
+                    'language'          : 'en'
+                }
+            },
+            'info_link'         : 'http://www.heise.de/ct/artikel/2-Klicks-fuer-mehr-Datenschutz-1333879.html',
+            'txt_help'          : 'If you activate these buttons by clicking on them, information will get transfered to Facebook, Twitter or Google in the USA and potentially stored there. Find out more by clicking on the <em>i</em>.',
+            'settings_perma'    : 'Permanently enable and agree to transfer information:',
+        };
+
+        // Standardwerte des Plug-Ings mit Standard-Spracheinstellungen ueberschreiben
+        // Standardsprache: 'de'
+		if (settings.language === 'en')
+	        var defaults_localized = $.extend(true, defaults, default_texts_en);
+		else
+	        var defaults_localized = $.extend(true, defaults, default_texts_de);
 
         // Standardwerte des Plug-Ings mit den vom User angegebenen Optionen ueberschreiben
         var options = $.extend(true, defaults, settings);
