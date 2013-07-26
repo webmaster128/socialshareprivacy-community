@@ -1,7 +1,7 @@
 socialshareprivacy-community
 ============================
 
-This is a community version of the Heise.de socialshareprivacy plugin.
+This is a community version of the [Heise.de socialshareprivacy plugin](http://www.heise.de/extras/socialshareprivacy/).
 
 Download
 --------
